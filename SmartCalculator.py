@@ -1,3 +1,12 @@
+def mensaje():
+    print("OPCIONES: ")
+    print("1. SUMAR")
+    print("2. RESTAR")
+    print("3. DIVIDIR")
+    print("4. MULTIPLICAR")
+    
+main_loop = True
+
 while main_loop:
     mensaje()
     user_selection = str(input(" Escoja la operación que desea realizar "))
